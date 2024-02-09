@@ -7,7 +7,7 @@ nav{
     padding: 5px 20px;
 }
 
-a{
+li a{
     text-decoration: none;
     color:white;
     margin: 10px;
@@ -19,7 +19,28 @@ ul{
     list-style: none;
 }
 
-#logo{
+.logo{
     font-size: 24px;
+}
+
+@media(max-width: 600px){
+    nav{flex-direction: column;
+        align-items: flex-start;
+        }
+
+    nav.logo{
+        
+    }
+
+
+    nav ul{flex-direction: column;
+        
+    }
+
+    a{
+          
+    }
+
+ 
 }
 
