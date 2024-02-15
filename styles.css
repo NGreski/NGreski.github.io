@@ -17,6 +17,8 @@ li a{
 ul{
     display: flex;
     list-style: none;
+    padding: 0;
+    
 }
 
 .logo{
@@ -28,19 +30,12 @@ ul{
         align-items: flex-start;
         }
 
-    nav.logo{
-        
+    ul{
+        flex-direction: column;
     }
 
-
-    nav ul{flex-direction: column;
-        
+    li{
+        margin: 5px 0;
     }
-
-    a{
-          
-    }
-
- 
 }
 
